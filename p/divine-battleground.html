@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Divine Battleground | Aethrya Archives</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="SEARCH THE ARCHIVES...">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link-item"><a href="../index.html">HOME</a></li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/setting.html" class="active">SETTING</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/the-lost-hills.html">The Lost Hills</a></li>
+                        <li><a href="../p/divine-battleground.html" class="active">The Divine Battleground</a></li>
+                        <li><a href="../p/the-veil-accord.html">The Veil Accord</a></li>
+                        <li><a href="../p/leilon-lore.html">Factions: Leilon</a></li>
+                        <li><a href="../p/phandalin-lore.html">Factions: Phandalin</a></li>
+                        <li><a href="../p/southkrypt-lore.html">Factions: Southkrypt</a></li>
+                        <li><a href="../p/hidden-gods.html">The Hidden Gods</a></li>
+                        <li><a href="../p/divine-fragments.html">The Divine Fragments</a></li>
+                        <li><a href="../p/astral-fracture-map.html">The Astral Fracture Map</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/guides.html">GUIDES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/new-player-guide-article.html">New Player Guide</a></li>
+                        <li><a href="../p/roleplay-guide-article.html">Roleplay Guide</a></li>
+                        <li><a href="../p/staff-structure-article.html">Staff Structure</a></li>
+                        <li><a href="../p/dungeon-master-guide-article.html">Dungeon Master Guide</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/rules.html">RULES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/hub-guard-rules.html">Hub Guard Rules</a></li>
+                        <li><a href="../p/infiltration-rules.html">Infiltration & Raids</a></li>
+                        <li><a href="../p/general-rules.html">General Rules</a></li>
+                        <li><a href="../p/combat-rules.html">Combat Rules</a></li>
+                        <li><a href="../p/theft-rules.html">Theft Rules</a></li>
+                        <li><a href="../p/raider-rules.html">Raider Rules</a></li>
+                        <li><a href="../p/building-rules.html">Building Rules</a></li>
+                        <li><a href="../p/charm-rules.html">Charm & Mental Influence</a></li>
+                        <li><a href="../p/profession-rules.html">Profession Rules</a></li>
+                        <li><a href="../p/consequence-rules.html">Consequence Rules</a></li>
+                        <li><a href="../p/disguise-rules.html">Disguise Rules</a></li>
+                        <li><a href="../p/reroll-rules.html">Reroll Rules</a></li>
+                        <li><a href="../p/aethrya-lore-tab.html">LORE</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/systems.html">SYSTEMS</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/systems.html">Systems Overview</a></li>
+                        <li><a href="../p/languages.html">Languages</a></li>
+                        <li><a href="../p/spells-magic.html">Magic</a></li>
+                        <li><a href="../p/professions.html">Professions</a></li>
+                        <li><a href="../p/wounds-system.html">Wounds System</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/combat.html">COMBAT</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/aquatic-combat.html">Aquatic Combat</a></li>
+                        <li><a href="../p/feats.html">Feats</a></li>
+                        <li><a href="../p/equipment.html">Equipment</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/classes.html">CLASSES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/character-classes.html">Character Classes</a></li>
+                        <li><a href="../p/barbarian.html">Barbarian</a></li>
+                        <li><a href="../p/ranger.html">Ranger</a></li>
+                        <li><a href="../p/sorcerer.html">Sorcerer</a></li>
+                        <li><a href="../p/warlock.html">Warlock</a></li>
+                        <li><a href="../p/cleric.html">Cleric</a></li>
+                        <li><a href="../p/druid.html">Druid</a></li>
+                        <li><a href="../p/bard.html">Bard</a></li>
+                        <li><a href="../p/fighter.html">Fighter</a></li>
+                        <li><a href="../p/monk.html">Monk</a></li>
+                        <li><a href="../p/civilian.html">Civilian</a></li>
+                        <li><a href="../p/classes-overview.html">Classes Overview</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/races.html">RACES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/races-overview.html">Races Overview</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <a href="https://discord.gg/tyQVWaJGaB" target="_blank" style="color: #5865F2; display: flex; align-items: center; gap: 10px;">
+                        <span>DISCORD</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="main-wrapper">
+        <main class="glass-content">
+            
+            <h1>The Divine Battleground</h1>
+            <div class="article-body intro-text">
+                
+            <img src="../images/divine_battleground.png" alt="Divine Battleground" style="width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #d4af37;">
+            <h2>The Fracture of Heaven</h2>
+            <p><span class="dropcap">B</span>efore the current age of Aethrya, before mortal civilizations rose across the Lost Hills, the heavens themselves became a battlefield. Across the planes existed countless pantheons: the gods of humans, elves, dwarves, drow, orcs, and stranger cosmic beings from distant realms. These gods ruled from celestial domains above reality, guiding mortal civilizations through prophecy, miracles, and chosen champions.</p>
+            <p>For ages this divine balance endured. The gods influenced the world but rarely fought one another directly. Yet beneath this order, tension grew. Rivalries between pantheons deepened as mortal wars escalated in their names. Each deity believed their vision for the world was correct.</p>
+
+            <h3>The Fractures</h3>
+            <p>Then the fractures began. Across the Astral Sea, strange distortions appeared&mdash;ripples in divine reality where magic behaved unpredictably. At first the gods dismissed them as anomalies. But the fractures multiplied. Divine domains trembled. Celestial pathways collapsed. Communication between gods and their followers weakened.</p>
+            <p>The fractures were not accidents.</p>
+            <p>They were created by entities older than the gods themselves&mdash;the <strong>Primordial Architects</strong>, beings born in the earliest moments of creation before divine consciousness emerged. To the Primordials, the wars of the gods threatened the stability of reality itself. If the divine conflicts continued, the multiverse would eventually collapse.</p>
+
+            <h3>The Cataclysm</h3>
+            <p>The Primordials weakened the divine realms, severing the connection between gods and their celestial thrones. As panic spread among the pantheons, accusations erupted into open conflict. Gods blamed one another for the fractures and war broke out across the Astral Sea.</p>
+            <p>Entire planes shattered as celestial armies clashed. Angels fought devils. Titans battled elemental lords. Mortal worlds trembled beneath the fallout of divine power. The conflict escalated until reality itself began to unravel.</p>
+
+            <h3>The Judgment</h3>
+            <p>At that moment the Primordials revealed themselves. Their judgment was swift. The gods had abused their power. The pantheons had become reckless stewards of creation.</p>
+            <p>Rather than destroy them, the Primordials imposed punishment. Every god was stripped of their celestial throne and cast into the mortal world. Each deity was bound within a mortal form, their divine essence restrained by cosmic law. Their memories remained intact, but their power was limited.</p>
+            <p>The gods would no longer rule from above. They would walk beside mortals.</p>
+            <p>Thus began the <strong>Hidden Age of Aethrya</strong>.</p>
+        
+            </div>
+        </main>
+    </div>
+    <script>
+        function toggleSub(btn) {
+            const subNav = btn.parentElement.nextElementSibling;
+            subNav.classList.toggle('hidden');
+            btn.textContent = subNav.classList.contains('hidden') ? '+' : '-';
+        }
+    </script>
+</body>
+</html>

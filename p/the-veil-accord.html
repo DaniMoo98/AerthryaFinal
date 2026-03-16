@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Veil Accord | Aethrya Archives</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="SEARCH THE ARCHIVES...">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link-item"><a href="../index.html">HOME</a></li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/setting.html" class="active">SETTING</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/the-lost-hills.html">The Lost Hills</a></li>
+                        <li><a href="../p/divine-battleground.html">The Divine Battleground</a></li>
+                        <li><a href="../p/the-veil-accord.html" class="active">The Veil Accord</a></li>
+                        <li><a href="../p/leilon-lore.html">Factions: Leilon</a></li>
+                        <li><a href="../p/phandalin-lore.html">Factions: Phandalin</a></li>
+                        <li><a href="../p/southkrypt-lore.html">Factions: Southkrypt</a></li>
+                        <li><a href="../p/hidden-gods.html">The Hidden Gods</a></li>
+                        <li><a href="../p/divine-fragments.html">The Divine Fragments</a></li>
+                        <li><a href="../p/astral-fracture-map.html">The Astral Fracture Map</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/guides.html">GUIDES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/new-player-guide-article.html">New Player Guide</a></li>
+                        <li><a href="../p/roleplay-guide-article.html">Roleplay Guide</a></li>
+                        <li><a href="../p/staff-structure-article.html">Staff Structure</a></li>
+                        <li><a href="../p/dungeon-master-guide-article.html">Dungeon Master Guide</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/rules.html">RULES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/hub-guard-rules.html">Hub Guard Rules</a></li>
+                        <li><a href="../p/infiltration-rules.html">Infiltration & Raids</a></li>
+                        <li><a href="../p/general-rules.html">General Rules</a></li>
+                        <li><a href="../p/combat-rules.html">Combat Rules</a></li>
+                        <li><a href="../p/theft-rules.html">Theft Rules</a></li>
+                        <li><a href="../p/raider-rules.html">Raider Rules</a></li>
+                        <li><a href="../p/building-rules.html">Building Rules</a></li>
+                        <li><a href="../p/charm-rules.html">Charm & Mental Influence</a></li>
+                        <li><a href="../p/profession-rules.html">Profession Rules</a></li>
+                        <li><a href="../p/consequence-rules.html">Consequence Rules</a></li>
+                        <li><a href="../p/disguise-rules.html">Disguise Rules</a></li>
+                        <li><a href="../p/reroll-rules.html">Reroll Rules</a></li>
+                        <li><a href="../p/aethrya-lore-tab.html">LORE</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/systems.html">SYSTEMS</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/systems.html">Systems Overview</a></li>
+                        <li><a href="../p/languages.html">Languages</a></li>
+                        <li><a href="../p/spells-magic.html">Magic</a></li>
+                        <li><a href="../p/professions.html">Professions</a></li>
+                        <li><a href="../p/wounds-system.html">Wounds System</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/combat.html">COMBAT</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/aquatic-combat.html">Aquatic Combat</a></li>
+                        <li><a href="../p/feats.html">Feats</a></li>
+                        <li><a href="../p/equipment.html">Equipment</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/classes.html">CLASSES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/character-classes.html">Character Classes</a></li>
+                        <li><a href="../p/barbarian.html">Barbarian</a></li>
+                        <li><a href="../p/ranger.html">Ranger</a></li>
+                        <li><a href="../p/sorcerer.html">Sorcerer</a></li>
+                        <li><a href="../p/warlock.html">Warlock</a></li>
+                        <li><a href="../p/cleric.html">Cleric</a></li>
+                        <li><a href="../p/druid.html">Druid</a></li>
+                        <li><a href="../p/bard.html">Bard</a></li>
+                        <li><a href="../p/fighter.html">Fighter</a></li>
+                        <li><a href="../p/monk.html">Monk</a></li>
+                        <li><a href="../p/civilian.html">Civilian</a></li>
+                        <li><a href="../p/classes-overview.html">Classes Overview</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <div class="sidebar-row">
+                        <a href="../c/races.html">RACES</a>
+                        <button class="toggle-sub" onclick="toggleSub(this)">+</button>
+                    </div>
+                    <ul class="sub-nav hidden">
+                        <li><a href="../p/races-overview.html">Races Overview</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link-item">
+                    <a href="https://discord.gg/tyQVWaJGaB" target="_blank" style="color: #5865F2; display: flex; align-items: center; gap: 10px;">
+                        <span>DISCORD</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="main-wrapper">
+        <main class="glass-content">
+            
+            <h1>The Veil Accord</h1>
+            <div class="article-body intro-text">
+                
+            <img src="../images/veil_accord_scroll.png" alt="Veil Accord" style="width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #d4af37;">
+            <h2>The Mortal Decree</h2>
+            <p><span class="dropcap">T</span>he fall of the pantheons created chaos in the mortal world. Even in mortal bodies the gods possessed immense influence. Some attempted to reclaim their authority, gathering followers and building kingdoms around themselves.</p>
+            <p>Fearing another catastrophic war, the Primordials imposed a second law upon reality: <strong>the Veil</strong>.</p>
+            <p>The Veil is a metaphysical barrier woven into existence itself. It restricts divine power and prevents gods from openly revealing their true nature to mortals. Under the Veil, divine energy destabilizes when used excessively, forcing the gods to act subtly.</p>
+            <p>Negotiations between the fallen pantheons eventually produced a set of cosmic rules known as the <strong>Veil Accord</strong>.</p>
+
+            <h3>The Universal Laws</h3>
+            <ul>
+                <li>Gods must live in mortal forms and conceal their identities.</li>
+                <li>No pantheon may dominate the mortal world.</li>
+                <li>Divine conflicts must remain hidden.</li>
+                <li>Mortals must retain free will.</li>
+                <li>Knowledge of the Primordials must remain rare.</li>
+            </ul>
+            <p>Through this pact the gods accepted their new role within creation. Rather than ruling the world, they would guide it.</p>
+            <p>Yet many deities still search for ways to circumvent the Veil. And some believe the Veil itself may eventually weaken.</p>
+        
+            </div>
+        </main>
+    </div>
+    <script>
+        function toggleSub(btn) {
+            const subNav = btn.parentElement.nextElementSibling;
+            subNav.classList.toggle('hidden');
+            btn.textContent = subNav.classList.contains('hidden') ? '+' : '-';
+        }
+    </script>
+</body>
+</html>
